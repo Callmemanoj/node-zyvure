@@ -6,6 +6,6 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start":"nodemon indexx.js"
+    "start": "nodemon index.js"
   }
 }
