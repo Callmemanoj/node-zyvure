@@ -3,7 +3,9 @@ let express = require('express');
 const app = express();
 
 const port = 3000;
+app.set('view engine', 'ejs');
 app.get('/', (req, res) => {
+  //res.render('app');
   res.send({ message: 'hello world' });
 });
 app.listen(port, () => {
